@@ -1,6 +1,6 @@
     ---
 layout: default
-title: Hadoop Installation
+title: Hadoop
 category: Installation
 ---
 
