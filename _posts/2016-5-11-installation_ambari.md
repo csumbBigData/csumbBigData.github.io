@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Ambari
-
 category: Installation
+type: 'INSTALLATION'
 ---
 
 # Ambari Installation CentOS 6.7

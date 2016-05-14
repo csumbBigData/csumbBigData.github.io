@@ -2,6 +2,7 @@
 layout: default
 title: Cloudera
 category: Learning Resources
+type: Learning Resources
 ---   
 
 # Cloudera Big Data Resources

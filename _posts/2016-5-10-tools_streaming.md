@@ -2,6 +2,7 @@
 layout: default
 title: Streaming and MapReduce
 category: Tools
+type: TOOLS
 ---
 
 Hadoop Streaming allows MapReduce jobs to be run in any programming language.

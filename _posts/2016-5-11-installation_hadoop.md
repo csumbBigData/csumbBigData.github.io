@@ -2,6 +2,7 @@
 layout: default
 title: Hadoop
 category: Installation
+type: "INSTALLATION"
 ---
 
 Commands to run	Text configuration

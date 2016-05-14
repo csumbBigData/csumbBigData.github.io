@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Wordcount
+title: Wordcount/MapReduce
 category: Tools
+type: TOOLS
 ---
 
 WordCount is the Hello World of Hadoop.  The basic idea of distributed processing is highlighted in this exercise.

@@ -2,6 +2,7 @@
 layout: default
 title: Udacity
 category: Learning Resources
+type: Learning Resources
 ---
 
 # Udacity Big Data Resources

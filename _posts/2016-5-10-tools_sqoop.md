@@ -2,6 +2,7 @@
 layout: default
 title: Sqoop Basics
 category: Tools
+type: Tools
 ---
 # Using Sqoop
 
