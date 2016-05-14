@@ -1,23 +1,20 @@
 ---
 layout: default
-title: Wordcount
+title: Streaming and MapReduce
 category: Tools
 ---
 
-# The Hadoop Streaming Command
+Hadoop Streaming allows MapReduce jobs to be run in any programming language.
 
+Even though Java is the native language of Hadoop, we used Python for ease of use.  Python scripts are significantly shorter, and allow concepts to be explored, instead of spending a lot of time learning verbose Java commands.  
 
-Hadoop Streaming allows for the running of MapReduce jobs in any programming language.
-
-MapReduce jobs are usually run using Java, but in our case we used Python for ease of use as a design decision.
-
-The full command to use Hadoop Streaming is very long as it requres the path to the hadoop-streaming jar in the hadoop install directory, the mapper and reducer and required options for those files. An example of this is below for Python on our specific system, the install path may be different based on the setup on differing systems:
+The full command to use Hadoop Streaming is very long as it requres the path to the hadoop-streaming jar in the hadoop install directory, the mapper and reducer, and required options for those files. An example of this is below for Python on our specific system.  The install path may be different based on the setup on system settings:
 
     yarn jar /usr/hdp/2.4.0.0-169/hadoop-mapreduce/hadoop-streaming-2.7.1.2.4.0.0-169.jar -mapper ./Mapper.py -reducer ./Reducer.py -file ./Mapper.py -file ./Reducer.py -input /mapRedInDir -output /mapRedOutDir
     
 ## Streaming options
 
-The path on the -input option specifies the path to an input directory on the hadoop file system (HDFS) which has the data that you wish to run the MapReduce job on. The -output option specifies the output directory on the hadoop file system. The output directory must not exist when the command is run, because hadoop will create the output directory.
+The path on the -input option specifies the path to an input directory in the hadoop file system (HDFS) which has the data that you wish to run the MapReduce job on. The -output option specifies the output directory on the hadoop file system. The output directory must not exist when the command is run, because hadoop will create the output directory.
 
 On our system we used the yarn command because our system has that tool installed, but yarn can be replaced with hadoop if Yarn is not installed.
 

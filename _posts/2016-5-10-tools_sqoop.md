@@ -5,7 +5,7 @@ category: Tools
 ---
 # Using Sqoop
 
-Sqoop is a tool to migrate data from a MySQL database management system into the Haddop file system (HDFS). It works much like any other tool installed wit Hadoop, and requires a command with arguments.
+Sqoop is a tool to migrate data from structured datastores into the Haddop file system (HDFS). It works much like any other tool installed with Hadoop, and requires a command with arguments.
 
 ## Using Sqoop on Oracle 12c
 An example command, run on our system looks like this:
