@@ -1,4 +1,4 @@
----
+    ---
 layout: default
 title: Hadoop Installation
 category: Installation
@@ -29,12 +29,14 @@ Java is the primary prerequisite for running Hadoop.
 Check the system to see if java is installed by issuing the following command:
 
     $java -version
-![](http://gdurl.com/ZUiP)
+    
+![](https://dl.dropboxusercontent.com/s/3o0i31dp5hbqhiy/Java%20version.PNG?dl=0)
 
 If Java is not installed download the java tar file using wget.
 
     $wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u72-b15/jdk-8u72-linux-x64.tar.gz"
-![](http://gdurl.com/z-Sq)
+
+![](https://dl.dropboxusercontent.com/s/2ikw7eug8gc80mn/wget.PNG?dl=0)
 
 Move the java tar file to the /usr/local directory
 
@@ -81,7 +83,8 @@ Set up hadoop environment variables and append following line to ~/.bashrc
 Verify that hadoop is working
 
     $hadoop version
-![](http://gdurl.com/TY6J)
+    
+![](https://dl.dropboxusercontent.com/s/rmmaog4ttt01z2u/Hadoop%20version.PNG?dl=0)
 
 **Step 4 Configuring the network**
 
