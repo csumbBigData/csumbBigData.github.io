@@ -5,8 +5,6 @@ category: Installation
 type: "INSTALLATION"
 ---
 
-Commands to run	Text configuration
-
 # Commands to run
 
 **Step 1: Add a local user**

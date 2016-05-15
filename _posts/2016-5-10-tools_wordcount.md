@@ -30,7 +30,7 @@ At the end of the month, you would like to calculate the total sales for each.
 
 *Mapper*
 
-The mapper will be used to filter, and sort the results, to return only the necessary information.  It will extract the store name and total, and return a sorted list, separated by tabs.
+The mapper will be used to filter and sort the logs, to return only the necessary information.  It will extract the store name and total, and return a list, separated by tabs.
   
     one_stop 8500
     one_stop 7500
@@ -63,7 +63,7 @@ Items must be sorted after they are processed with the mapper.  The results are 
 
 The reducer's job is a lot easier, thanks to the work being done by all of the data nodes.  Each node returns a list, so the reducer must be smart about how it tallies the results.  
 
-It must only parse the lists, and keep track of which store is being processed.  When a new store is encountered, the sum for the old store can be returned.
+Because all the lists are sorted, before they get here, the reducer must only parse the lists, and keep track of which store is being processed.  When a new store is encountered, the sum for the old store can be returned.
 
     import sys
 
@@ -87,9 +87,7 @@ It must only parse the lists, and keep track of which store is being processed. 
             oldStore = thisStore
             salesTotal += float(thisSale)
 
-When the information gets to the reducer, it has been trimmed to the relevant fields by the mapper, and then sorted.  
-
-Like the mapper, the reducer reads every line, splits at tabs, and removes whitespace.  If there are not two items in the record, it is skipped.  It then sums the sales until it gets to a new store.  
+Like the mapper, the reducer reads every line, splits at tabs, and removes whitespace.  If there are not two items in the input record, it is skipped.  It then sums the sales until it gets to a new store.  
 
 The command to test the mapper and reducer locally is
 
