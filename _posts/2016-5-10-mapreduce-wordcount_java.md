@@ -14,7 +14,7 @@ Prepared by: *Arijit Das, Greg Belli, Erik Lowney, Jim Zhou, Nick Bitto*
 
 The purpose of WordCount is to return a count of each word in the file(s)
 
-![]("https://dl.dropboxusercontent.com/s/v4abyq8vy4iuq5t/word_count_illustration.PNG?dl=0")
+![](https://dl.dropboxusercontent.com/s/v4abyq8vy4iuq5t/word_count_illustration.PNG?dl=0)
 
 `import *;
 public class WordCount1 {
