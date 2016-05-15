@@ -2,7 +2,7 @@
 layout: default
 title: Reduce Join Java
 category: MapReduce
-type: MapReduce
+type: MAPREDUCE
 ---
 
 *Naval Postgraduate School Lab Excerpt*

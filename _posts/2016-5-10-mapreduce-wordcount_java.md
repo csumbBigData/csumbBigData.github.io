@@ -2,7 +2,7 @@
 layout: default
 title: Wordcount Java
 category: MapReduce
-type: MapReduce
+type: MAPREDUCE
 ---
 *Naval Postgraduate School Lab Excerpt*
 
@@ -114,6 +114,9 @@ Text and IntWritable are both Hadoop classes. Text is comparable to String and I
 
 <pre>public static class WordCountMapper
 extends Mapper<Object, Text, <b>Text, IntWritable</b>></pre>
+
+```<pre>public static class WordCountMapper
+extends Mapper<Object, Text, <b>```**```Text, IntWritable```**```</b>></pre>```
 
 Create a constant variable named one and set it to equal ‘1’. The word count works by splitting up each line by word and assigning each word the value of ‘1’. In the reduce phase the application will count the similar words.
 

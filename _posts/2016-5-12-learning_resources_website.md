@@ -2,7 +2,7 @@
 layout: default
 title: Website
 category: Learning Resources
-type: Learning Resources
+type: LEARNING_RESOURCES
 ---
 
 # Powered by GitHub and Jekyll

@@ -576,40 +576,54 @@ code {
   text-transform: uppercase;
 }
 
-/* GET */
-#content article.GET a h2 code {
+/* The variable at article.VARIABLE controls
+ * the color of the square that is related to
+ * the type in post front matter
+ */
+
+/* MAPREDUCE */
+#content article.MAPREDUCE a h2 code {
   color: #119bdf;
 }
 
-#content article.GET a h2 code b {
+#content article.MAPREDUCE a h2 code b {
   background: #119bdf;
 }
 
-/* POST */
-#content article.POST a h2 code {
+/* SERVICES */
+#content article.SERVICES a h2 code {
   color: #52ce0e;
 }
 
-#content article.POST a h2 code b {
+#content article.SERVICES a h2 code b {
   background: #52ce0e;
 }
 
-/* PUT */
-#content article.PUT a h2 code {
+/* INSTALLATION */
+#content article.INSTALLATION a h2 code {
   color: #e08f10;
 }
 
-#content article.PUT a h2 code b {
+#content article.INSTALLATION a h2 code b {
   background: #e08f10;
 }
 
-/* DELETE */
-#content article.DELETE a h2 code {
+/* LEARNING_RESOURCES */
+#content article.LEARNING_RESOURCES a h2 code {
   color: #e02a10;
 }
 
-#content article.DELETE a h2 code b {
+#content article.LEARNING_RESOURCES a h2 code b {
   background: #e02a10;
+}
+
+/* INFO */
+#content article.INFO a h2 code {
+  color: #FFD612;
+}
+
+#content article.INFO a h2 code b {
+  background: #FFD612;
 }
 
 /* Reference's body */
