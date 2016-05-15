@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Sqoop Basics
-category: Tools
-type: Tools
+title: Sqoop
+category: Services
+type: SERVICES
 ---
 # Using Sqoop
 

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Wordcount/MapReduce
-category: Tools
-type: TOOLS
+title: Wordcount Python
+category: MapReduce
+type: MapReduce
 ---
 
 WordCount is the Hello World of Hadoop.  The basic idea of distributed processing is highlighted in this exercise.
