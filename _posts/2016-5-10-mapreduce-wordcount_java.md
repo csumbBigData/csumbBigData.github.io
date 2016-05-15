@@ -81,7 +81,7 @@ This line will start the job and then block until the job is complete. If the jo
 
 ## Mapper Function
 
-public static class WordCountMapper
+`public static class WordCountMapper
     extends Mapper<Object, Text, Text, IntWritable>
 {
     private final static IntWritable one = new
@@ -98,7 +98,7 @@ public static class WordCountMapper
             context.write(word, one);
         }
     }
-}
+}`
 
 Let's break it down.
 
