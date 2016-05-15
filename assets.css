@@ -457,11 +457,15 @@ code {
   text-transform: uppercase;
 }
 
+
+
 #sidebar h2 {
   color: #888;
   font-size: 14px;
   margin: 0;
 }
+
+
 
 #sidebar ul {
   list-style: none;
@@ -508,6 +512,33 @@ code {
   -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
   outline: none;
 }
+
+/*Change color of sidebar subcategories to match main category colors */
+#links li.ABOUT a {
+    color: #119bdf;
+}
+
+#links li.MAPREDUCE a {
+    color: #119bdf;
+}
+
+#links li.SERVICES a {
+    color: #52ce0e;
+}
+
+#links li.INSTALLATION a {
+    color: #e08f10;
+}
+
+#links li.LEARNING_RESOURCES a {
+    color: #e02a10;
+}
+
+#links li.SERVICES a {
+    color: #52ce0e;
+}
+
+
 
 /* References */
 #content {
