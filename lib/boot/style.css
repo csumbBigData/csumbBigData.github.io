@@ -110,6 +110,33 @@ code {
   outline: none;
 }
 
+/*Change color of sidebar subcategories to match main category colors */
+#links li.ABOUT a {
+    color: #119bdf;
+}
+
+#links li.MAPREDUCE a {
+    color: #119bdf;
+}
+
+#links li.SERVICES a {
+    color: #52ce0e;
+}
+
+#links li.INSTALLATION a {
+    color: #e08f10;
+}
+
+#links li.LEARNING_RESOURCES a {
+    color: #e02a10;
+}
+
+#links li.SERVICES a {
+    color: #52ce0e;
+}
+
+
+
 /* References */
 #content {
   padding: 20px;

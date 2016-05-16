@@ -21,7 +21,10 @@ Udacity provides a <a href="https://docs.google.com/document/d/1v0zGBZ6EHap-Smsr
 
 It's a good idea to set your virtual machine up so you can SSH into it, through your computer.  That way, you can easily transfer files back and forth.  Instructions on that are <a href="https://docs.google.com/document/d/1MZ_rNxJhR4HCU1qJ2-w7xlk2MTHVqa9lnl_uj-zRkzk/pub" target="none">here</a>.
 
+The purchases.txt file was garbled, so I have provided a link to a zipped <a href="https://dl.dropboxusercontent.com/s/sr26lwxmqszxem2/purchases.zip?dl=0" target="none">copy</a>. 
+
 This is one of the 
+
 **Testing mapper or reducer locally:**
 
 It is a good idea to take a small sample of the data and test mapper/reducer.

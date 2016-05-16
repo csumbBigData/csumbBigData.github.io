@@ -97,7 +97,7 @@ The \--watch flag can be used to serve a directory where you do not want to add 
 This command was used with this site, after downloading the template, and navigating to its directory.  
 
 
-Some templates set the default port to something other than 4000.  Jekyll will give you the server address after you enter the serve command. I used a template that specified 4005 as the default port.
+Some templates set the default port to something other than 4000.  Jekyll will give you the server address after you enter the serve command. I downloaded a template from jekyllthemes.org/ that used a template that specified 4005 as the default port.
 
 ![](https://dl.dropboxusercontent.com/s/j560phg42v4xi1m/jekyll_serve.PNG?dl=0) 
 
