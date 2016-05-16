@@ -50,7 +50,7 @@ It is a coder's dream!!  Edit the files locally, preview the affects in a web br
 
 GitHub offers hosting for one site per GitHub account.  That's what this site is running on right now.  The website for the GitHub account csumbBigData, is followed by .github.io -> csumbbigdata.github.io
 
-I am also using DropBox to host the pictures used in the installation pages.  Instructions for doing this <a href="http://benwilhelm.com/the-website/nerd-stuff/2014/12/21/building-an-image-heavy-jekyll-site/" target="blank">here</a>.
+I am also using DropBox to host the pictures used in the installation pages.  Instructions for doing this <a href="http://benwilhelm.com/the-website/nerd-stuff/2014/12/21/building-an-image-heavy-jekyll-site/" target="blank">here</a>.  Create a new folder called Public, in Dropbox.
 
 Installation of Jekyll on a Windows system is a little tricker than a Mac.  It required the installation of <a href="https://chocolatey.org/" target="blank">Chocolatey</a>, which is then used to install Ruby and Jekyll.  Complete instructions for this installation are <a href="https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/" target="blank">here</a>.
 
@@ -59,9 +59,10 @@ Installation of Jekyll on a Windows system is a little tricker than a Mac.  It r
 ### Website
 Jekyll comes with a default blog template that is installed when the new command is used.  After Jekyll been installed, you can start a new site by completing the following.  Using the command prompt, navigate to the directory where you would like to keep the files, and enter these commands.
 
-    $jekyll new my-site
-    $cd my-site
-    $jekyll serve
+`$jekyll new my-site
+$cd my-site
+$jekyll serve
+`
 
 If a directory is not empty, Jekyll will not create a new scaffold in it, unless the \--force flag is appended.
 
@@ -73,11 +74,12 @@ This will create a Jekyll scaffold for a new blog-type web page.   Markdown file
 
 <a href="https://jekyllrb.com/docs/frontmatter/" target="blank">Front matter</a> must be included in every file.  Title, layout, tags, categories, and other information can be specified here.
 
-    ----
-    title: My Jekyll Site
-    layout: default
-    ---
-    
+`----
+title: My Jekyll Site
+layout: default
+---
+`
+   
 There are many excellent-looking Jekyll <a href="http://jekyllthemes.org/" target="blank">templates</a> that are easy to implement.  To use one:
 
  - Download and unpack the files.  
@@ -88,8 +90,7 @@ There are many excellent-looking Jekyll <a href="http://jekyllthemes.org/" targe
 
     jekyll serve
     
-Navigate to localhost:4000 and check out your site!
-
+Navigate to localhost:4000, and check out your site!
 
 The documentation theme template has set the default port to 4005.  Jekyll will give you the server address after you enter the serve command. Make sure you check the port number, if you're having trouble connecting.  
 
@@ -129,6 +130,18 @@ port: 4005
 # the port where the preview is rendered. You can leave this as is unless you 
 have other Jekyll builds using this same port that might cause conflicts.
 `
+
+If you check in the root folder, you will find several files that are common to every Jekyll folder.  
+
+ - index.html - The html file that is generated from all the content and scripts.
+ - _posts - Holds content.  Date is used to control ordering.  Files with most recent dates are displayed first.
+ - _layouts - Holds layout html files.  default.html is usually included.
+ - _includes - Holds header and footer layout html files.  These can be used in the main layout html file.
+ - _site - Holds html files that are generated from the _posts folders, as well as index.  Also holds css and javascript files.
+ 
+*Note*
+
+In this theme, changes made to the html files are replaced after any change is made to the .md files.  The website is regenerated through the templates and javascript.  If you make a change to the index.html in the main folder, and upload it, that will be what you see.  However, if a change is made to any files, the html file will be regenerated, and the change will be lost when it is pushed to the server.  The layout, and javascript must be changed.    
 
 
 This site is using the <a href="http://jekyllthemes.org/themes/carte/" target="blank">Carte</a> template.  
