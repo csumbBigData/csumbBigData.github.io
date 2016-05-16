@@ -141,10 +141,14 @@ If you check in the root folder, you will find several files that are common to 
  
 *Note*
 
-In this theme, changes made to the html files are replaced after any change is made to the .md files.  The website is regenerated through the templates and javascript.  If you make a change to the index.html in the main folder, and upload it, that will be what you see.  However, if a change is made to any files, the html file will be regenerated, and the change will be lost when it is pushed to the server.  The layout, and javascript must be changed.    
-
+You can edit the idex.html file direcetly, and send that to your web server.  You must remember though, that it is regenerated through templates, css and javascript.  If you make a change to any files while the Jekyll server is watching the folder, the html file will be regenerated, and the change will be lost.  The layout, css, or javascript must be changed to make sure the edit is reflected in the index.html when changes are made.  
 
 This site is using the <a href="http://jekyllthemes.org/themes/carte/" target="blank">Carte</a> template.  
+
+**More Resources**
+
+ - Jekyll Bootstrap is no longer maintained, but the <a href="http://themes.jekyllbootstrap.com/preview/twitter/lessons/2011/12/29/jekyll-introduction/" target="none">Jekyll introduction</a> gives a great overview of how everything works.
+ - <a href="https://pages.github.com/" target="none">GitHub Pages</a> will walk you through setting up your own site. 
 
 
 
