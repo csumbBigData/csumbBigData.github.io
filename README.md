@@ -2,7 +2,7 @@
 
 ### CSUMB Spring 2016 Capstone Project
 
-Files for website @ http://csumbbigdata.github.io/
+Files for website @ <a href="http://csumbbigdata.github.io/" target="blank">csumbbigdata.github.io</a>
 
 This website was created with the hope that it would provide a resource to get started with big data. Hopefully it will shorten the amount of time it takes for future students to get up to speed, and start research of their own.  It is part of a senior capstone project at California State University at Monterey Bay, in collaboration with the Naval Postgraduate School.
 
