@@ -5,6 +5,13 @@ category: MapReduce
 type: MAPREDUCE
 ---
 
+These snippets of Python code are an example
+of how a MapReduce job will be developed in Python.
+The code demonstrates the wordcount application of 
+hadoop. It is possible to feed in a text file to the 
+system using this mapper and reducer and the output 
+will be the count of the words in the text file.
+
 ### Mapper
 
 
