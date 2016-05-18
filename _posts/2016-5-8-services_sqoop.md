@@ -22,6 +22,8 @@ The part in the string is our database's connect string, what sqoop will use to 
 
 _--username_ and _-P_ are for giving sqoop access to the database as a user with the right permissions on the specific table that needs to be imported. _-P_ will make sqoop ask for the password in the command window as a prompt, this is more secure than entering the password into the command itself.
 
+TYLER.TWEETS is the table which contains the data that we want to import. This table specifically holds data from a twitter data dump.
+
 ###Things to watch out for
 
 The connect string is case sensitive, and will cause many java exceptions to be thrown if there are any mistakes.
