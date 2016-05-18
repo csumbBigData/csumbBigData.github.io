@@ -29,13 +29,13 @@ Check the system to see if java is installed by issuing the following command:
 
     $java -version
     
-![](https://dl.dropboxusercontent.com/s/3o0i31dp5hbqhiy/Java%20version.PNG?dl=0)
+![](https://dl.dropboxusercontent.com/s/6zvsby4bvgb73ii/Java%20version.PNG?dl=0)
 
 If Java is not installed download the java tar file using wget.
 
     $wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u72-b15/jdk-8u72-linux-x64.tar.gz"
 
-![](https://dl.dropboxusercontent.com/s/2ikw7eug8gc80mn/wget.PNG?dl=0)
+![](https://dl.dropboxusercontent.com/s/m2w31bij6tetzrr/wget.PNG?dl=0)
 
 Move the java tar file to the /usr/local directory
 
@@ -51,9 +51,9 @@ Set up PATH and JAVA_HOME variables
 
 Append these lines to the file
 
-`export JAVA_HOME=/usr/local/jdk1.7.0_71 
-export PATH=$PATH:$JAVA_HOME/bin
-`
+    export JAVA_HOME=/usr/local/jdk1.7.0_71 
+    export PATH=$PATH:$JAVA_HOME/bin
+
 
 Apply the changes using source to execute the commands in .bashrc file
 
@@ -84,7 +84,7 @@ Verify that hadoop is working
 
     $hadoop version
     
-![](https://dl.dropboxusercontent.com/s/rmmaog4ttt01z2u/Hadoop%20version.PNG?dl=0)
+![](https://dl.dropboxusercontent.com/s/qj39au4vpj9ibce/Hadoop%20version.PNG?dl=0)
 
 **Step 4 Configuring the network**
 
@@ -137,7 +137,7 @@ Example:
 
 **Step 5 Configuring Hadoop nodes**
 
-INSTALLING HADOOP IN PSEUDO DISTRIBUTED MODE
+### INSTALLING HADOOP IN PSEUDO DISTRIBUTED MODE
 
 Append the following to the ~/.bashrc file
 
@@ -162,31 +162,31 @@ In order to set up the Hadoop infrastructure these configuration files must be c
 Core-site.xml configuration
 Add these properties between the \<configuration> tab
 
-`\<configuration>
-   \<property>
-      <name>fs.default.name </name>
-      <value> hdfs://localhost:9000 </value> 
-   </property>
-</configuration>
-`
+    <configuration>
+       <property>
+          <name>fs.default.name </name>
+          <value> hdfs://localhost:9000 </value> 
+       </property>
+    </configuration>
+
 
 Hdfs-site.xml configuration
 
-`\<configuration>
-   \<property>
-      <name>dfs.replication</name>
-      <value>1</value>
-   </property>
-   <property>
-      <name>dfs.name.dir</name>
-      <value>file:///home/hadoop/hadoopinfra/hdfs/namenode </value>
-   </property>
-   <property>
-      <name>dfs.data.dir</name> 
-      <value>file:///home/hadoop/hadoopinfra/hdfs/datanode </value> 
-   </property>
-</configuration>
-`
+    <configuration>
+        <property>
+          <name>dfs.replication</name>
+          <value>1</value>
+       </property>
+       <property>
+          <name>dfs.name.dir</name>
+          <value>file:///home/hadoop/hadoopinfra/hdfs/namenode </value>
+       </property>
+       <property>
+          <name>dfs.data.dir</name> 
+          <value>file:///home/hadoop/hadoopinfra/hdfs/datanode </value> 
+       </property>
+    </configuration>
+
 
 Yarn-site.xml configuration 
 
