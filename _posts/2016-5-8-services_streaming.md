@@ -17,7 +17,7 @@ The full command to use Hadoop Streaming is very long as it requres the path to 
 
 The path on the -input option specifies the path to an input directory in the hadoop file system (HDFS) which has the data that you wish to run the MapReduce job on. The -output option specifies the output directory on the hadoop file system. The output directory must not exist when the command is run, because hadoop will create the output directory.
 
-On our system we used the yarn command because our system has that tool installed, but yarn can be replaced with hadoop if Yarn is not installed.
+On our system we used the yarn command because our system has that tool installed. The _yarn_ command can be replaced with _hadoop_ if the Yarn service is not installed.
 
 ## Aliasing the command
 We created an alias for this command, to make running jobs easier. This can be done by adding an alias to the .bashrc file of the user with write access to HDFS. 
