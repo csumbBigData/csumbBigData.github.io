@@ -24,14 +24,14 @@ _--username_ and _-P_ are for giving sqoop access to the database as a user with
 
 TYLER.TWEETS is the table which contains the data that we want to import. This table specifically holds data from a twitter data dump.
 
-###Things to watch out for
+### Things to watch out for
 
 The connect string is case sensitive, and will cause many java exceptions to be thrown if there are any mistakes.
 
 The table that is being imported will have to be set up with a primary key, or the import will fail. This may be something that doesn't happen often,
 but in the case of our system, importing a twitter data dump carelessly would cause Oracle 12c to import the data without a primary key. 
 
-###The output of the command
+### The output of the command
 
 Once the sqoop import has run successfully, a directory will be created in the Hadoop File System with the same name as the table that you used in your import.
 Running the hadoop _fs -ls_ command without adding the _/_ to the command will show the location in HDFS that holds the imported folder. 

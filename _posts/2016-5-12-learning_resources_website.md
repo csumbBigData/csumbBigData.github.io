@@ -133,6 +133,7 @@ My recommendations to get started:
 
  - Jekyll Bootstrap is no longer maintained, but the <a href="http://themes.jekyllbootstrap.com/preview/twitter/lessons/2011/12/29/jekyll-introduction/" target="blank">Jekyll introduction</a> gives a great overview of how everything works.
  - <a href="https://pages.github.com/" target="blank">GitHub Pages</a> will walk you through setting up your own site. 
+ - <a href="https://www.codecademy.com/courses/deploy-a-website" target="none">Codecademy</a> has an interactive tutorial to get you started.
 
 This site is using the <a href="http://jekyllthemes.org/themes/carte/" target="blank">Carte</a> template.  
 

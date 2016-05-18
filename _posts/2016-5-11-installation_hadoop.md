@@ -29,13 +29,13 @@ Check the system to see if java is installed by issuing the following command:
 
     $java -version
     
-![](https://dl.dropboxusercontent.com/s/6zvsby4bvgb73ii/Java%20version.PNG?dl=0)
+<img src="{{site.baseurl}}/img/java_version.PNG">
 
 If Java is not installed download the java tar file using wget.
 
     $wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u72-b15/jdk-8u72-linux-x64.tar.gz"
 
-![](https://dl.dropboxusercontent.com/s/m2w31bij6tetzrr/wget.PNG?dl=0)
+<img src="{{site.baseurl}}/img/wget.PNG">
 
 Move the java tar file to the /usr/local directory
 
@@ -84,7 +84,7 @@ Verify that hadoop is working
 
     $hadoop version
     
-![](https://dl.dropboxusercontent.com/s/qj39au4vpj9ibce/Hadoop%20version.PNG?dl=0)
+<img src="{{site.baseurl}}/img/hadoop_version.PNG">
 
 **Step 4 Configuring the network**
 
