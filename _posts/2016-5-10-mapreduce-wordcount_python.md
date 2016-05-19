@@ -14,9 +14,8 @@ will be the count of the words in the text file.
 
 ### Mapper
 
-{% highlight python %}
 
-#!/usr/bin/python
+`#!/usr/bin/python
 import sys
 def mapper():
     for line in sys.stdin:
@@ -25,12 +24,11 @@ def mapper():
         for word in words:	
             print "{0}\t{1}".format(word,"1")
 mapper()
-{% endhighlight %}
+`
 
 ### Reducer
 
-```python
-#!/usr/bin/python
+`#!/usr/bin/python
 import sys
 wordCount = {}
 def reducer():    
@@ -48,7 +46,7 @@ def reducer():
     for word in wordCount.keys():
         print "{0}\t{1}".format(word,wordCount[word])
 reducer()
-```
+`
 
 
 
