@@ -7,7 +7,7 @@ type: LEARNING_RESOURCES
 
 # Powered by GitHub and Jekyll
 
-The primary goal of the capstone project, that necessitated this website, was to pass information along to future students.  Our first idea was to create a Wiki page on GitHub, and use that as the primary way disseminate the data.  The problem with that, is the Wiki page is hidden away, and has limited layout options.  
+The primary goal of the capstone project, which necessitated this website, was to pass information along to future students.  Our first idea was to create a Wiki page on GitHub, and use that as the primary way disseminate the data.  The problem with that, is the Wiki page is hidden away, and has limited layout options.  
 
 That's where Jekyll comes into play.  It is a fantastically easy way to create a static website, using GitHub as a content server.  This information may be helpful if you would like to contribute, or just because you want an easy way to make a website.  
 
@@ -40,7 +40,7 @@ A few quick examples:
 
 ## Jekyll
 
-<a href="https://jekyllrb.com/" target="blank">Jekyll</a> is a static website generator, which allows you to use Markdown, CSS, javascript, and HTML to format pages.  It also takes advantage of the template engine <a href="https://github.com/Shopify/liquid/wiki" target="blank">Liquid</a>, to allow the creation of easy, and good looking layouts.
+<a href="https://jekyllrb.com/" target="blank">Jekyll</a> is a static website generator, which allows you to use Markdown, CSS, javascript, and HTML to format pages.  It also takes advantage of the template engine <a href="https://github.com/Shopify/liquid/wiki" target="blank">Liquid</a>, to allow the creation of easy and good looking layouts.
 
 *Definition of Jekyll from its site*
 

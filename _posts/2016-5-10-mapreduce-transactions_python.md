@@ -7,7 +7,7 @@ type: MAPREDUCE
 
 The basic idea of distributed processing is highlighted in this exercise, as we filter, sort, and process somes sales transaction data.
 
-The mapper and reducer files, and the problem them comes from the Udacity course linked under Learning Resources.
+The mapper and reducer files, and the problem comes from the Udacity course linked under Learning Resources.
 
 In a centralized system, data is gathered and processed at a central point.  A distributed system reduces processing time significantly by spreading the workload out to the data locations.
 
